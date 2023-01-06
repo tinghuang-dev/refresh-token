@@ -1,0 +1,26 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Raymond",
+      "age": 20
+    },
+    {
+      "id": 2,
+      "name": "Emily",
+      "age": 40
+    },
+    {
+      "id": 3,
+      "name": "Petter",
+      "age": 33
+    }
+  ],
+  "auth": [
+    {
+      "name": "Emily",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiRW1pbHkiLCJpYXQiOjE2NTQzMjI4NTh9.4OSZSyPdMCk1bPuID-0e3LMvsagewKj4PmSSGhY9hOw",
+      "id": 1
+    }
+  ]
+}

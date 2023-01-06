@@ -1,0 +1,17 @@
+POST http://192.168.1.102:9090/login
+Content-Type: application/json
+
+{
+    "username":"Emily"
+}
+
+###
+GET http://192.168.1.102:9090/user_info
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiRW1pbHkiLCJpYXQiOjE2NTQzMjI5OTYsImV4cCI6MTY1NDMyMzAxNn0.uE6p3XVCuoxHk4pP699jnqIkFX17HXq6ryndcuAvZM8
+###
+POST http://192.168.1.102:9090/token
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiRW1pbHkiLCJpYXQiOjE2NTQzMjI4NTh9.4OSZSyPdMCk1bPuID-0e3LMvsagewKj4PmSSGhY9hOw"
+}
